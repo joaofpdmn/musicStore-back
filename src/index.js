@@ -9,5 +9,4 @@ app.use(express.json());
 
 app.use(authRouter);
 
-
-app.listen(5000, () => console.log("Ouvindo"));
+app.listen(process.env.PORT, () => console.log("Ouvindo"));
