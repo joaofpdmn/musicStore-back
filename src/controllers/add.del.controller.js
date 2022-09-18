@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import db from "../database/db";
-=======
 import db from "../database/db.js";
->>>>>>> main
 import {ObjectId} from "mongodb";
 
 const addList= (req,res)=>{
