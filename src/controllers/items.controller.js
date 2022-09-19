@@ -4,7 +4,7 @@ import db from '../database/db.js';
 async function showItems(req, res){ 
     try {
         const albumsCollection = await db.collection('albums').insertMany(albums);
-        res.send(albumsCollection);
+        res.send(albums);
         return;
 
     } catch (error) {
