@@ -7,3 +7,9 @@ async function checkoutConfirm(req, res){
     const { name, ConfirmedCardNumber, cardName, expirationDate, securityCode } = req.body;
     const user = res.locals.user;
 }
+
+
+export {
+    checkoutConfirm,
+    
+}
