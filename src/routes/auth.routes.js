@@ -6,7 +6,5 @@ const authRouter = express.Router();
 
 authRouter.post('/signup', signUpAccount);
 authRouter.post('/login', loginAccount);
-authRouter.get('/list',list);
-authRouter.get('/list/:search',listSearch);
 
 export { authRouter };
