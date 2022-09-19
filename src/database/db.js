@@ -2,7 +2,7 @@ import { MongoClient } from "mongodb";
 import dotenv from "dotenv";
 dotenv.config();
 
-const mongoClient = new MongoClient("mongodb+srv://driven:HN08w9IgV9AJ1Zle@musicstorecluster.ykv1vl7.mongodb.net/?retryWrites=true");
+const mongoClient = new MongoClient(MONGO_URI);
 
 try {
     await mongoClient.connect();
