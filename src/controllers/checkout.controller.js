@@ -10,6 +10,5 @@ async function checkoutConfirm(req, res){
 
 
 export {
-    checkoutConfirm,
-    
+    checkoutConfirm
 }

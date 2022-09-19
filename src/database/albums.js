@@ -640,4 +640,4 @@ const albums = [
       }
   ];
 
-  export default albums;
+  export { albums };
