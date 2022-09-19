@@ -5,6 +5,6 @@ import { userAuth } from '../middlewares/auth.middleware.js';
 const itemsRouter = express.Router();
 
 itemsRouter.use(userAuth);
-itemsRouter.get('/home', showItems);
+itemsRouter.get('/list', showItems);
 
 export { itemsRouter }
